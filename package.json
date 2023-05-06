@@ -1,0 +1,27 @@
+{
+  "name": "unittesting-task",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aamer-Qanadilo/UnitTesting-Task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aamer-Qanadilo/UnitTesting-Task/issues"
+  },
+  "homepage": "https://github.com/Aamer-Qanadilo/UnitTesting-Task#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5"
+  }
+}
