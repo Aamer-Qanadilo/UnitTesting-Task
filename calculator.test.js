@@ -20,4 +20,16 @@ describe("additionCalculator's test cases", () => {
   test("NaN argument, equals 0", () => {
     expect(add("5test")).toBe(0);
   });
+
+  test("Testing negative numbers", () => {
+    expect(add("5,-5,10,20,-10")).toBe(35);
+  });
+
+  test("Testing large numbers", () => {
+    expect(add("2000,5,5,10,20,10,1001")).toBe(50);
+  });
+
+  test("Passing a Number instead of a string", () => {
+    expect(add(10)).toBe(10);
+  });
 });
